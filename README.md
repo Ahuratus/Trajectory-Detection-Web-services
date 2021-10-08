@@ -75,15 +75,24 @@ Documentation manager, Full-Stack Developer, QA Engineer, DevOps
 ### Use case diagram
 <img src="https://user-images.githubusercontent.com/54430660/136557133-ac610709-40b8-4757-bc93-ae5ec7e0b4ef.png" height="350px" />
 ### SOLID and Design Patterns
-TBA
+**Single Responsibility:** Each class in this project have only one responsibility.  
+**Open/Closed principle:** Classes are open for extection and does not require modifications  
+**Liskov Substitution:** Each class in program might be substituted by it's child and that will not lead to any change  
+**Interface Segregation:** There is no interfaces in the program, which are excessively big  
+**Dependency Inversion Principle:** No high level modules depends on low level modules  
 
 ## Architecture
 Application consist of trajectory detecton service, web service, avaliable for users, and database. Trajectory detection service is a script, written on Python, database is PostgreSQL relational database management system, and web service works with REST API standart. During development we followed ISO 29148:2011 standart, which contains provisions for the processes and products related to the engineering of requirements for systems and software products and services throughout the life cycle.
 ### Acceptance Criteria
   * RESTful API
   * 
+
 ### Static view Diagram
-### Dynamic view  diagram
+<img src="https://user-images.githubusercontent.com/54430660/136585793-4f134ac8-3858-4426-a405-e2096df01600.png" height="450px" alt="Static view" />  
+
+### Dynamic view Diagram
+<img src="https://user-images.githubusercontent.com/54430660/136585878-c840cfb8-1cd2-47fe-b7c8-29c6b8b034a0.png" height="450px" alt="Dynamic view" />  
+
 ## Code
 ### Examples of REST API requests:
 <a href="https://youtu.be/zTwUmZ-vaso">
