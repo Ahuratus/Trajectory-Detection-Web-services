@@ -52,6 +52,7 @@ Documentation manager, Full-Stack Developer, QA Engineer, DevOps
 **Database backup**: After every 10 requests, server creates a new backup from database and uploads it to Google Drive and files.fm
 
 ## SOME TITLE
+
 **Simplicity**: Service provides a well defined REST API for the well defined user use case scenarios.
 
 **Accessibility**: We want this service to have 99% uptime and be accessible from any device. We will achieve that using Amazon Cloud Web Service. 
@@ -82,9 +83,9 @@ Application consist of trajectory detecton service, web service, avaliable for u
 ### Dynamic view  diagram
 ## Code
 ### Examples of REST API requests:
-<a href="https://youtu.be/zTwUmZ-vaso">
+<a href="https://youtu.be/TB-TUCAf1mk">
 JWT Authentication test
-<img src="https://user-images.githubusercontent.com/54430660/136561841-c86d70ba-8c62-4a4e-b32a-5da5edb402cd.jpg" height="450px" alt="Link" />
+<img src=https://img.youtube.com/vi/TB-TUCAf1mk/default.jpg height="450px" alt="Link" />
 </a>
 
 ### Code quality
