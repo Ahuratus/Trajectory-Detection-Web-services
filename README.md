@@ -71,8 +71,13 @@ Application consist of trajectory detecton service, web service, avaliable for u
 ### Examples of REST API requests:
 <a href="https://youtu.be/zTwUmZ-vaso">
 JWT Authentication test
-<img src="https://user-images.githubusercontent.com/54430660/136561841-c86d70ba-8c62-4a4e-b32a-5da5edb402cd.jpg" height="450px" alt="Link"/>
+<img src="https://user-images.githubusercontent.com/54430660/136561841-c86d70ba-8c62-4a4e-b32a-5da5edb402cd.jpg" height="450px" alt="Link" />
 </a>
+
+## Code quality
+There is no major issues in the code. All the issues are about format of this README file and one unused import.
+<img src="https://user-images.githubusercontent.com/54430660/136563200-acbe9767-5be2-4ddc-8344-cbc7c6107dc0.jpg" height="450px" alt="Issue file" />
+
 
 ## Sample Output
 <a href="https://youtu.be/TB-TUCAf1mk"> 
