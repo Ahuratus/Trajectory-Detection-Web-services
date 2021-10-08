@@ -51,7 +51,7 @@ Documentation manager, Full-Stack Developer, QA Engineer, DevOps
 
 **Database backup**: After every 10 requests, server creates a new backup from database and uploads it to Google Drive and files.fm
 
-## SOME TITLE
+## Quality Standard
 
 **Simplicity**: Service provides a well defined REST API for the well defined user use case scenarios.
 
@@ -79,6 +79,9 @@ TBA
 
 ## Architecture
 Application consist of trajectory detecton service, web service, avaliable for users, and database. Trajectory detection service is a script, written on Python, database is PostgreSQL relational database management system, and web service works with REST API standart. During development we followed ISO 29148:2011 standart, which contains provisions for the processes and products related to the engineering of requirements for systems and software products and services throughout the life cycle.
+### Acceptance Criteria
+  * RESTful API
+  * 
 ### Static view Diagram
 ### Dynamic view  diagram
 ## Code
