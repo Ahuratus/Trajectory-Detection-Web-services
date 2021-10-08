@@ -64,11 +64,15 @@ Documentation manager, Full-Stack Developer, QA Engineer, DevOps
 <img src="https://user-images.githubusercontent.com/54430660/136548240-82bf033d-01a3-4206-89c1-fa1efe8642eb.png" height="350px" />
 
 ### Use case diagram
-<img src="https://user-images.githubusercontent.com/54430660/136548255-83844920-002d-468f-bb4a-471ed9dbd054.png" height="350px" />
+<img src="https://user-images.githubusercontent.com/54430660/136557133-ac610709-40b8-4757-bc93-ae5ec7e0b4ef.png" height="350px" />
 
 ### Architecture
 Application consist of trajectory detecton service, web service, avaliable for users, and database. Trajectory detection service is a script, whitten on Python, database is PostgreSQL relational database management system, and web service works with REST API standart. During development we followed ISO 29148:2011 standart, which contains provisions for the processes and products related to the engineering of requirements for systems and software products and services throughout the life cycle.
-
+### Examples of REST API requests:
+<a href="https://youtu.be/zTwUmZ-vaso">
+JWT Authentication test
+<img src="https://user-images.githubusercontent.com/54430660/136561841-c86d70ba-8c62-4a4e-b32a-5da5edb402cd.jpg" height="450px" alt="Link"/>
+</a>
 
 ## Sample Output
 <a href="https://youtu.be/TB-TUCAf1mk"> 
