@@ -21,7 +21,13 @@ run  following command
 ``` python run.py```
 
 ## Glossary
-### TBA 
+**Token** - 256 bytes unique string for session id, which is responsible
+for authentication and identification of a user session, which can
+also be used for retrieving reports or responding to user requests  
+**Detection model** - class of machine learning models with a well
+defined interface for detecting user desired class of entities  
+**Trajectory detection** - a sort of detection models which estimates
+trajectory of the user desired class of entities
 
 ## Stakeholders
 ### Ehsan Shaghaei https://github.com/Ahuratus
