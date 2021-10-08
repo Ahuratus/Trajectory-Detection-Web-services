@@ -24,7 +24,7 @@ run  following command
 ### TBA 
 
 ## Stakeholders
-### Ethan Shagaei https://github.com/Ahuratus
+### Ehsan Shaghaei https://github.com/Ahuratus
 Project Manager, Computer Vision, QA Engineer, Developer
 
 ### Denis Kalachev https://github.com/Mr-Barry
