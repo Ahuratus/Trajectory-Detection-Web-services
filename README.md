@@ -83,9 +83,9 @@ Application consist of trajectory detecton service, web service, avaliable for u
 ### Dynamic view  diagram
 ## Code
 ### Examples of REST API requests:
-<a href="https://youtu.be/TB-TUCAf1mk">
+<a href="https://youtu.be/zTwUmZ-vaso">
 JWT Authentication test
-<img src=https://img.youtube.com/vi/TB-TUCAf1mk/default.jpg height="450px" alt="Link" />
+<img src=https://img.youtube.com/vi/zTwUmZ-vaso/default.jpg height="450px" alt="Link" />
 </a>
 
 ### Code quality
