@@ -4,14 +4,18 @@ This project is a lightweight web-service providing [trajectory estimation](http
 Nowadays, Trajectory estimation and detection as a fundamental means to robotics and  autonomus vehicles technology is in demand of the market of this industry. Thus we decided to develop a web service which can provide a lightweight, responsive web-service for [autonomous vehicles](https://en.wikipedia.org/wiki/Uncrewed_vehicle) and [IoT-devices](https://en.wikipedia.org/wiki/Internet_of_things). 
 
 ## Installing
+
 1. First clone the repo or download the repo as a zip and extract it.
 ``` git clone https://github.com/Ahuratus/Trajectory-Detection-Web-services.git ```
+
 2. Change Directory
 ``` cd Trajectory-Detection-Web-services```
+
 3. Install application packages
 ```  pip install -r requirements.txt ```
+
 4. If you are a windows user check the [issue 1](https://github.com/Ahuratus/Trajectory-Detection-Web-services/issues/1)
-5. 
+
 ## Running
 run  following command
 ``` python run.py```
@@ -34,13 +38,12 @@ Documentation manager, Full-Stack Developer, QA Engineer, DevOps
 
 **Trajectory Estimation Session:** Logged in user uploads an .mp4 video to the server through the provided API; providing his/her session TOKEN.
 
-
 ### User type: Server
 **Database recovery**: In case of server failure/relocation, respectively failed/new server pulls the newest version of the software from the repository and deploys it. Server runs server initialization script and downloads and extracts the database back up.
 
 **Database backup**: After every 10 requests, server creates a new backup from database and uploads it to Google Drive and files.fm
 
-## Non-functional requirements:
+## Non-functional requirements
 **Simplicity**: Service provides a well defined REST API for the well defined user use case scenarios.
 
 **Accessibility**: We want this service to have 99% uptime and be accessible from any device. We will achieve that using Amazon Cloud Web Service. 
@@ -63,7 +66,6 @@ Documentation manager, Full-Stack Developer, QA Engineer, DevOps
 
 ### Use case diagram
 <img src="https://user-images.githubusercontent.com/54430660/136548255-83844920-002d-468f-bb4a-471ed9dbd054.png" height="350px" />
-
 
 ### Architecture
 Application consist of trajectory detecton service, web service, avaliable for users, and database. Trajectory detection service is a script, whitten on Python, database is PostgreSQL relational database management system, and web service works with REST API standart. During development we followed ISO 29148:2011 standart, which contains provisions for the processes and products related to the engineering of requirements for systems and software products and services throughout the life cycle.
