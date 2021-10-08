@@ -63,7 +63,6 @@ Documentation manager, Full-Stack Developer, QA Engineer, DevOps
 ### Sequence diagram
 <img src="https://user-images.githubusercontent.com/54430660/136548240-82bf033d-01a3-4206-89c1-fa1efe8642eb.png" height="350px" />
 
-
 ### Use case diagram
 <img src="https://user-images.githubusercontent.com/54430660/136548255-83844920-002d-468f-bb4a-471ed9dbd054.png" height="350px" />
 
