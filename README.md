@@ -201,9 +201,12 @@ Application consist of trajectory detecton service, web service, avaliable for u
 ![Dynamic view](https://user-images.githubusercontent.com/54430660/136585878-c840cfb8-1cd2-47fe-b7c8-29c6b8b034a0.png)   
 
 ## Code
-## Pre-requesties
+### **Usage**
+
+#### **Pre-requesties**
 Install [docker](https://www.docker.com/get-started)
-## Installing and Running
+
+#### **Installing and Running**
 
 1. First clone the repo or download the repo as a zip and extract it.
 ```sh
@@ -223,25 +226,36 @@ docker-compose --file docker-compose.yml up --build
 4. If you faced with issues, check the [issues](https://github.com/Ahuratus/Trajectory-Detection-Web-services/issues) page. if you can't find your problem. place your problem there. we would answer you ASAP!
 
 5. You can use [Postman](https://www.postman.com/downloads/) to check our APIs. the ```nginx``` is running on the port ```12345```
-## Running Example
 
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=VID)
+### Running Example [Proof of concept]
 
-### Examples of REST API requests:
-<a href="https://youtu.be/zTwUmZ-vaso">
-JWT Authentication test
-<img src=https://img.youtube.com/vi/zTwUmZ-vaso/default.jpg height="450px" alt="Link" />
-</a>
+* Full Test
 
-### Code quality
-There is no major issues in the code. All the issues are about format of this README file and one unused import.
-<img src="https://user-images.githubusercontent.com/54430660/136563200-acbe9767-5be2-4ddc-8344-cbc7c6107dc0.jpg" height="450px" alt="Issue file" />
+[![Alt text](https://img.youtube.com/vi/I3LqgN1WdPU/0.jpg)](https://www.youtube.com/watch?v=I3LqgN1WdPU)
+
+* JWT Auth. Test
+
+[![Alt text](https://img.youtube.com/vi/I3LqgN1WdPU/1.jpg)](https://youtu.be/I3LqgN1WdPU?t=112)
+
+* API Test
+
+[![Alt text](https://img.youtube.com/vi/I3LqgN1WdPU/2.jpg)](https://youtu.be/I3LqgN1WdPU?t=203)
+
+* Visual output of the trajectory model
+
+[![Alt text](https://img.youtube.com/vi/I3LqgN1WdPU/3.jpg)](https://youtu.be/I3LqgN1WdPU?t=437)
 
 
-### Sample Output
-<a href="https://youtu.be/TB-TUCAf1mk"> 
-<img src="https://img.youtube.com/vi/TB-TUCAf1mk/default.jpg" height="150px" alt="Link"/>
-</a>
+### **Static analyzers (Lint)**
+I used ```pyflake``` for static analyse. the results are pretty decent as we see in following images. And there are no criticial issues in the code.
+
+![pyflake1](https://i.ibb.co/tH3DWNX/pyflake.png)
+![pyflake2](https://i.ibb.co/tH3DWNX/pyflake1.png)
+
+### **Code Quality**
+I used codacy for checking my code quality.  and the results are as following.
+![codacy](https://i.ibb.co/G70Q69k/test.png)
+
 
 ### Contributors
 
