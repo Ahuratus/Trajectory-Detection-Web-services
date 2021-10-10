@@ -1,4 +1,15 @@
-# Trajectory Detection Web services
+# ![stars](https://img.shields.io/badge/17-stars-FFD43B?style=for-the-badge&logo=github&logoColor=darkgree)  Trajectory Detection Web services
+
+
+## Motivation
+* Providing lightweight web-services for autonomous vehicles clients (UAV)s
+* Providing lightweight web-services for IoT clients 
+* Creating an evolving environment for Unmanned Tech developers
+* Data collection for improvement of models
+* Data collection for data banks
+
+> Check my [RUP](doc\RUP_Artifacts_for_Trajectory_Detection_Web_Services_Project_BETA.pdf)
+
 ## Description
 This project is a lightweight web-service providing [trajectory estimation](https://link.springer.com/chapter/10.1007/978-3-540-92957-4_28) *API* for users.
 Nowadays, Trajectory estimation and detection as a fundamental means to robotics and  autonomus vehicles technology is in demand of the market of this industry. Thus we decided to develop a web service which can provide a lightweight, responsive web-service for [autonomous vehicles](https://en.wikipedia.org/wiki/Uncrewed_vehicle) and [IoT-devices](https://en.wikipedia.org/wiki/Internet_of_things). 
@@ -23,6 +34,7 @@ trajectory of the user desired class of entities
 #### **Stakeholder**
 [AHURATUS Tech](https://github.com/Ahuratus).
 #### **Roles**
+[![Ehsans's GitHub stats](https://github-readme-stats.vercel.app/api?username=ehsan2754)](https://github.com/ehsan2754/github-readme-stats)
 * [Ehsan Shaghaei](https://github.com/Ehsan2754)
   * Project Manager 
   * Back-End Developer
@@ -30,6 +42,7 @@ trajectory of the user desired class of entities
   * DevOps 
   * QA
 
+[![Denis's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mr-Barry)](https://github.com/Mr-Barry/github-readme-stats)
 * [Denis Kalachev](https://github.com/Mr-Barry)
   * Documentation manager
   * Miscellaneous Roles
@@ -139,7 +152,7 @@ beside Postgres, we use Redis to keep track of the expiered tokens  because of i
 
 * **Database backup**: After every 10 requests, server creates a new backup from database.
 
-## Quality Standard
+## Qualities
 
 **Simplicity**: Service provides a well defined REST API for the well defined user use case scenarios.
 
@@ -182,6 +195,17 @@ Application consist of trajectory detecton service, web service, avaliable for u
   * the format of the frame in requests must be ```base64``` encoded '```JPG```'
 
 ### ***Technology Stack***
+![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgree)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
+![Flask](	https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Posgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-CC0000.svg?&style=for-the-badge&logo=redis&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+![Kanban](https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=Kibana&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 * Docker
 * nginx
 * gunicorn
@@ -253,14 +277,26 @@ I used ```pyflake``` for static analyse. the results are pretty decent as we see
 ![pyflake2](https://i.ibb.co/tH3DWNX/pyflake1.png)
 
 ### **Code Quality**
+
+
 I used codacy for checking my code quality.  and the results are as following.
+
+
 ![codacy](https://i.ibb.co/G70Q69k/test.png)
 
+
+However you can see majority issues are related to my [readme](README.md) as following. Moreover my code issues are not such a critical issues which may be ignored for now.
+
+
+![Codacy1](https://i.ibb.co/CJYh4Hh/test1.png)
 
 ### Contributors
 
 Feel free to contact me for contribution. The project is open source and I would like to invite anybody interested in feild of unmanned control to contribute.
 <a href="https://github.com/Ahuratus/Trajectory-Detection-Web-services/graphs/contributors"><img src="]https://i.ibb.co/LJyTKZ4/Screenshot-2021-10-10-223456.png" /></a>
+
+![Telegram](	https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white) [Ehsan Shaghaei](https://t.me/ethanshagaei)
+
 
 
 ### License
