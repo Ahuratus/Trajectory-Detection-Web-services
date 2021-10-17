@@ -14,7 +14,71 @@
 This project is a lightweight web-service providing [trajectory estimation](https://link.springer.com/chapter/10.1007/978-3-540-92957-4_28) *API* for users.
 Nowadays, Trajectory estimation and detection as a fundamental means to robotics and  autonomus vehicles technology is in demand of the market of this industry. Thus we decided to develop a web service which can provide a lightweight, responsive web-service for [autonomous vehicles](https://en.wikipedia.org/wiki/Uncrewed_vehicle) and [IoT-devices](https://en.wikipedia.org/wiki/Internet_of_things). 
 
+## Code
+### **Usage**
 
+#### **Pre-requesties**
+Install [docker](https://www.docker.com/get-started)
+
+#### **Installing and Running**
+
+1. First clone the repo or download the repo as a zip and extract it.
+```sh
+ git clone https://github.com/Ahuratus/Trajectory-Detection-Web-services.git 
+ ```
+
+2. Change Directory
+```sh
+ cd Trajectory-Detection-Web-services 
+ ```
+
+3. Install application packages
+```sh
+docker-compose --file docker-compose.yml up --build
+```
+
+4. If you faced with issues, check the [issues](https://github.com/Ahuratus/Trajectory-Detection-Web-services/issues) page. if you can't find your problem. place your problem there. we would answer you ASAP!
+
+5. You can use [Postman](https://www.postman.com/downloads/) to check our APIs. the ```nginx``` is running on the port ```12345```
+
+### Running Example [Proof of concept]
+
+* Full Test
+
+[![Alt text](https://img.youtube.com/vi/I3LqgN1WdPU/0.jpg)](https://www.youtube.com/watch?v=I3LqgN1WdPU)
+
+* JWT Auth. Test
+
+[![Alt text](https://img.youtube.com/vi/I3LqgN1WdPU/1.jpg)](https://youtu.be/I3LqgN1WdPU?t=112)
+
+* API Test
+
+[![Alt text](https://img.youtube.com/vi/I3LqgN1WdPU/2.jpg)](https://youtu.be/I3LqgN1WdPU?t=203)
+
+* Visual output of the trajectory model
+
+[![Alt text](https://img.youtube.com/vi/I3LqgN1WdPU/3.jpg)](https://youtu.be/I3LqgN1WdPU?t=437)
+
+
+### **Static analyzers (Lint)**
+I used ```pyflake``` for static analyse. the results are pretty decent as we see in following images. And there are no criticial issues in the code.
+
+![pyflake1](https://i.ibb.co/tH3DWNX/pyflake.png)
+![pyflake2](https://i.ibb.co/tH3DWNX/pyflake1.png)
+
+### **Code Quality**
+
+
+I used codacy for checking my code quality.  and the results are as following.
+
+
+![codacy](https://i.ibb.co/G70Q69k/test.png)
+
+
+However you can see majority issues are related to my [readme](README.md) as following. Moreover my code issues are not such a critical issues which may be ignored for now.
+
+
+![Codacy1](https://i.ibb.co/CJYh4Hh/test1.png)
 
 
 ## Requirements
@@ -224,71 +288,7 @@ Application consist of trajectory detecton service, web service, avaliable for u
 ### ***Dynamic view Diagram***
 ![Dynamic view](https://user-images.githubusercontent.com/54430660/136585878-c840cfb8-1cd2-47fe-b7c8-29c6b8b034a0.png)   
 
-## Code
-### **Usage**
 
-#### **Pre-requesties**
-Install [docker](https://www.docker.com/get-started)
-
-#### **Installing and Running**
-
-1. First clone the repo or download the repo as a zip and extract it.
-```sh
- git clone https://github.com/Ahuratus/Trajectory-Detection-Web-services.git 
- ```
-
-2. Change Directory
-```sh
- cd Trajectory-Detection-Web-services 
- ```
-
-3. Install application packages
-```sh
-docker-compose --file docker-compose.yml up --build
-```
-
-4. If you faced with issues, check the [issues](https://github.com/Ahuratus/Trajectory-Detection-Web-services/issues) page. if you can't find your problem. place your problem there. we would answer you ASAP!
-
-5. You can use [Postman](https://www.postman.com/downloads/) to check our APIs. the ```nginx``` is running on the port ```12345```
-
-### Running Example [Proof of concept]
-
-* Full Test
-
-[![Alt text](https://img.youtube.com/vi/I3LqgN1WdPU/0.jpg)](https://www.youtube.com/watch?v=I3LqgN1WdPU)
-
-* JWT Auth. Test
-
-[![Alt text](https://img.youtube.com/vi/I3LqgN1WdPU/1.jpg)](https://youtu.be/I3LqgN1WdPU?t=112)
-
-* API Test
-
-[![Alt text](https://img.youtube.com/vi/I3LqgN1WdPU/2.jpg)](https://youtu.be/I3LqgN1WdPU?t=203)
-
-* Visual output of the trajectory model
-
-[![Alt text](https://img.youtube.com/vi/I3LqgN1WdPU/3.jpg)](https://youtu.be/I3LqgN1WdPU?t=437)
-
-
-### **Static analyzers (Lint)**
-I used ```pyflake``` for static analyse. the results are pretty decent as we see in following images. And there are no criticial issues in the code.
-
-![pyflake1](https://i.ibb.co/tH3DWNX/pyflake.png)
-![pyflake2](https://i.ibb.co/tH3DWNX/pyflake1.png)
-
-### **Code Quality**
-
-
-I used codacy for checking my code quality.  and the results are as following.
-
-
-![codacy](https://i.ibb.co/G70Q69k/test.png)
-
-
-However you can see majority issues are related to my [readme](README.md) as following. Moreover my code issues are not such a critical issues which may be ignored for now.
-
-
-![Codacy1](https://i.ibb.co/CJYh4Hh/test1.png)
 
 ### Contributors
 
