@@ -1,4 +1,4 @@
-# ![stars](https://img.shields.io/badge/17-stars-FFD43B?style=for-the-badge&logo=github&logoColor=darkgree)  Trajectory Detection Web services
+# ![stars](https://img.shields.io/badge/20-stars-FFD43B?style=for-the-badge&logo=github&logoColor=darkgree)  Trajectory Detection Web services
 
 
 ## Motivation
