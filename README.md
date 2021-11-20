@@ -106,10 +106,6 @@ trajectory of the user desired class of entities
   * DevOps 
   * QA
 
-[![Denis's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mr-Barry)](https://github.com/Mr-Barry/github-readme-stats)
-* [Denis Kalachev](https://github.com/Mr-Barry)
-  * Documentation manager
-  * Miscellaneous Roles
 
 ### **User stories**
 
